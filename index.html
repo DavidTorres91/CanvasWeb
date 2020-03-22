@@ -4,6 +4,12 @@
 
 <body>
 <h1>Canvas</h1>
-<canvasid="myCanvas" width="200" height="100"></canvas>
+<canvasid="myCanvas" width="200" height="100"
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World", 10, 50);>
+  
+</canvas>
 </body>
 </html>
